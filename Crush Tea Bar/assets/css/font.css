@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Oswald_Regular';
+    src: url('../fonts/Oswald/static/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Oswald_Bold';
+    src: url('../fonts/Oswald/static/Oswald-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Oswald_Light';
+    src: url('../fonts/Oswald/static/Oswald-Light.ttf');
+}
+
+@font-face {
+    font-family: 'QuattrocentoSans_Regular';
+    src: url('../fonts/Quattrocento_Sans/QuattrocentoSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'QuattrocentoSans_Bold';
+    src: url('../fonts/Quattrocento_Sans/QuattrocentoSans-Bold.ttf');
+}

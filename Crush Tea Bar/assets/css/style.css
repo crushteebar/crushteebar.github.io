@@ -1,0 +1,57 @@
+.customnav-color{
+    background-color: #2f333a;
+}
+.mainColor{
+    color: #eb3e32;
+}
+.mainbgColor {
+    background-color: #eb3e32;
+}
+
+* {
+    font-family: 'QuattrocentoSans_Regular';
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald_Bold';
+}
+
+.logo{
+    margin-left: -150px;
+}
+.nav{
+    margin-right: -150px;
+}
+
+.carousel-item img {
+    height:70vh;
+    object-fit: cover;
+}
+.btn-custom {
+    background-color: #eb3e32 !important;
+    color:#fff !important;
+}
+.btn-custom:hover {
+    background-color: #bc3228 !important;
+    color:#fff !important;
+    border-color: #bc3228 !important;
+}
+.he{
+    margin-top: 12px;
+    /* width: 120px; */
+    padding: 5px;
+    cursor:pointer;
+}
+.myborder{
+    border: 2px #0d6efd solid;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.myborder:hover{
+    background-color:#0d6efd;
+    color:#fff;
+}
+.increasebtn,.decreasebtn,.delbtn{
+    border: none;
+    background: none;
+}
