@@ -65,13 +65,13 @@ $(function () {
                         <td>${id}</td>
                         <td>${v.name}</td>
                         <td>${numberFormat(v.price)} Ks.</td>
-                        <td>
+                        <td class="fs-6">
                         <button class="decreasebtn" data-index = "${i}">
-                        <i class="fa-solid fa-circle-minus text-success" style="cursor: pointer;"></i>
+                        <i class="fa-solid fa-circle-minus text-success fs-6" style="cursor: pointer;"></i>
                         </button>
                         ${v.quantity}
                         <button class="increasebtn" data-index = "${i}">
-                        <i class="fa-solid fa-circle-plus text-success" style="cursor: pointer;"></i>
+                        <i class="fa-solid fa-circle-plus text-success fs-6" style="cursor: pointer;"></i>
                         </button>
                         </td>
                         <td>${numberFormat(v.quantity*v.price)} Ks.</td>
