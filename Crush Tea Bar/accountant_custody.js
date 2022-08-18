@@ -62,10 +62,10 @@ $(function () {
                         <i class="fa-solid fa-trash text-danger" style="cursor: pointer"></i>
                         </button>
                         </td>
-                        <td class="fs-6 font-monospace">${id}</td>
-                        <td class="fs-6 font-monospace">${v.name}</td>
-                        <td class="fs-6 font-monospace">${numberFormat(v.price)} Ks.</td>
-                        <td class="fs-6 font-monospace">
+                        <td>${id}</td>
+                        <td>${v.name}</td>
+                        <td>${numberFormat(v.price)} Ks.</td>
+                        <td class="fs-6">
                         <button class="decreasebtn" data-index = "${i}">
                         <i class="fa-solid fa-circle-minus text-success fs-6" style="cursor: pointer;"></i>
                         </button>
@@ -74,15 +74,15 @@ $(function () {
                         <i class="fa-solid fa-circle-plus text-success fs-6" style="cursor: pointer;"></i>
                         </button>
                         </td>
-                        <td class="fs-6 font-monospace">${numberFormat(v.quantity*v.price)} Ks.</td>
+                        <td>${numberFormat(v.quantity*v.price)} Ks.</td>
                         </tr>`
             })
 
             body += `
                         <tr>
-                                <td colspan="4" class="fs-6 font-monospace">Total</td>
-                                <td class="fs-6 font-monospace">${numberFormat(total_qty)} Q</td>
-                                <td class="fs-6 font-monospace">${numberFormat(total)} Ks.</td>
+                                <td colspan="4">Total</td>
+                                <td>${numberFormat(total_qty)} Q</td>
+                                <td>${numberFormat(total)} Ks.</td>
                         </tr>
                     `
                     $(".mycart").hide();
