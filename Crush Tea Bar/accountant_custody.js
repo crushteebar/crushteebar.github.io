@@ -1,7 +1,7 @@
 $(function () {
     getData();
 
-    $(".myborder").on("click",function() {
+    $("a").on("click",function() {
         var id = $(this).data("id");
         var name = $(this).data("name");
         var price = $(this).data("price");
