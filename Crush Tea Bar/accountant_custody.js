@@ -65,7 +65,7 @@ $(function () {
                         <td>${id}</td>
                         <td>${v.name}</td>
                         <td>${numberFormat(v.price)} Ks.</td>
-                        <td class="fs-6" style="width:200px;">
+                        <td class="fs-6" style="width: 110px;">
                         <button class="decreasebtn" data-index = "${i}">
                         <i class="fa-solid fa-circle-minus text-success fs-6" style="cursor: pointer;"></i>
                         </button>
